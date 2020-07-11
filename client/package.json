@@ -1,0 +1,55 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@truffle/core": "^5.1.33",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "bignumber.js": "^9.0.0",
+    "ethers": "^5.0.5",
+    "react": "^16.12.0",
+    "react-dom": "^16.8.6",
+    "react-scripts-ts": "^3.1.0",
+    "typescript": "~3.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "generate-types:truffle": "typechain --target=truffle-v5 --outDir=typechain-types/truffle 'ABIs/*.json'",
+    "generate-types:ethers": "typechain --target=ethers-v5 --outDir=typechain-types/ethers 'ABIs/*.json'"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@typechain/ethers-v5": "0.0.2",
+    "@typechain/truffle-v5": "^2.0.2",
+    "@types/bn.js": "^4.11.6",
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^7.0.2",
+    "@types/react": "^16.9.16",
+    "@types/react-dom": "^16.8.3",
+    "@types/web3": "^1.2.2",
+    "truffle-typings": "^1.0.8",
+    "typechain": "^2.0.0"
+  }
+}
