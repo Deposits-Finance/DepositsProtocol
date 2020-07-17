@@ -1,4 +1,4 @@
 # DepositsProtocol
 
-Whitepaper: https://github.com/Deposits-Finance/DepositsProtocol/blob/master/DepositsProtocolv0.1.pdf
+Whitepaper: https://github.com/Deposits-Finance/DepositsProtocol/blob/master/DepositsProtocolv1_1.pdf
 
